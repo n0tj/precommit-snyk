@@ -25,4 +25,8 @@ In your repository edit or create a `.pre-commit-config.yaml` file and configure
 
 Install the git hook script using `pre-commit install`. Now `git commit` will automatically run `pre-commit`.
 
+Any update to the .sh file run
+`pre-commit autoupdate     `
+`git add . `
+
 More information in the original documentation on https://pre-commit.com/.

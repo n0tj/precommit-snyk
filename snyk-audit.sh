@@ -2,4 +2,4 @@
 
 set -e
 
-snyk iac test $1
+snyk iac test . $1

@@ -2,4 +2,4 @@
 
 set -e
 
-snyk test --file=requirements.txt --skip-unresolved $1
+snyk code test --skip-unresolved $1

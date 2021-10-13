@@ -2,4 +2,4 @@
 
 set -e
 
-snyk test --all-projects --detection-depth=4 $1
+snyk test --all-projects --detection-depth=4 --skip-unresolved $1

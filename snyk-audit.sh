@@ -2,4 +2,4 @@
 
 set -e
 
-snyk iac test --skip-unresolved $1
+snyk iac test $1

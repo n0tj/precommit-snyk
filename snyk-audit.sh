@@ -2,4 +2,4 @@
 
 set -e
 
-snyk test $1
+snyk container test : --file=Dockerfile $1

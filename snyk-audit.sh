@@ -2,4 +2,4 @@
 
 set -e
 
-snyk test --all-projects --detection-depth=4 --skip-unresolved $1
+snyk test --file=requirements.txt --skip-unresolved $1

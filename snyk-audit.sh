@@ -2,4 +2,4 @@
 
 set -e
 
-snyk test $1
+snyk test --all-projects --detection-depth=4 $1
